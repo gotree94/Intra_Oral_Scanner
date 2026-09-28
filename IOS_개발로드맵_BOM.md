@@ -30,8 +30,8 @@
 
 | 항목 | 후보 부품/스펙 | 비고 |
 |------|----------------|------|
-| 이미지 센서 모듈 | OmniVision **OCH2B30** CameraCubeChip, 2.6×2.6mm, 2MP(1500×1500@60fps, 720p@120fps), MIPI 인터페이스, 생체적합·방수 인증 | 구강스캐너 전용으로 설계된 초소형 모듈. 스테레오 구성 시 2~3개 필요 |
-| 패턴 프로젝터 | DLP Pico(TI DLP2010/유사 LED 기반) 또는 MEMS 레이저 스캐닝 모듈(Hamamatsu/Lemoptix 계열) | 초기 프로토타입은 DLP 방식이 SW 난이도 낮음 |
+| 이미지 센서 모듈 | OmniVision **OCH2B30** CameraCubeChip, <br>2.6×2.6mm, 2MP(1500×1500@60fps, 720p@120fps), <br>MIPI 인터페이스, 생체적합·방수 인증 | 구강스캐너 전용으로 설계된 초소형 모듈. 스테레오 구성 시 2~3개 필요 |
+| 패턴 프로젝터 | DLP Pico(TI DLP2010/유사 LED 기반) 또는 <br>MEMS 레이저 스캐닝 모듈(Hamamatsu/Lemoptix 계열) | 초기 프로토타입은 DLP 방식이 SW 난이도 낮음 |
 | 조명 광원 | 근적외선/가시광 LED, 파장 405~660nm 대역 | 구강 내 습기·타액 반사 저감을 위해 편광판 병행 검토 |
 | 렌즈 모듈 | 고정 초점 마이크로렌즈(f/2.0 ~ 2.8, 시야각 60° ~ 90°) | 카메라 모듈과 매칭되는 웨이퍼레벨 렌즈 |
 | 신호처리 보드 | FPGA(Xilinx Zynq 7000 계열 또는 유사) + MIPI CSI-2 수신 IP | 다중 카메라 동기화, 실시간 영상 전처리 |
@@ -80,7 +80,7 @@
 
 | 항목 | 후보 부품/스펙 | 비고 |
 |------|----------------|------|
-| MEMS 스캐닝 미러 | Mirrorcle Technologies EMMM 시리즈(예: EMMM101/111/125), tip-tilt 2축, submillimeter~수mm 미러 | 상용 구매 가능한 2축 quasi-static/resonant 미러 |
+| MEMS 스캐닝 미러 | Mirrorcle Technologies EMMM 시리즈<br>(예: EMMM101/111/125), tip-tilt 2축, submillimeter~수mm 미러 | 상용 구매 가능한 2축 quasi-static/resonant 미러 |
 | MEMS 드라이버 | Mirrorcle Smart MEMS Driver 또는 Microchip 협력 칩셋 | 실시간 위치/온도 모니터링 포함 |
 | 광섬유 결합 광학계 | 싱글모드 파이버 + GRIN 렌즈 | 내시경형 프로브 구조 참고(외경 4~5.5mm급 사례 존재) |
 | 하우징(프로브 팁) | 티타늄 또는 의료용 스테인리스, 외경 12~15mm 목표 | MEMS 미러+광학계+센서 통합 수납 |
