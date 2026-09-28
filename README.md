@@ -23,7 +23,7 @@ MEMS/광학 스캐닝 엔진 관련 공학 문헌을 근거로 하였다.
 | 1 | 공초점 현미경(Confocal Microscopy) | TRIOS 5, CS3800 | 파장(UV~적색) 대역 스캐닝, 초점면 변화로 깊이 측정 |
 | 2 | 구조광 삼각측량(Structured Light) | Medit i700, Helios 600, AS260 | 패턴 투사 후 왜곡 분석으로 형상 재구성 |
 | 3 | 스테레오포토그래메트리 / Active Wavefront Sampling | 초기 Cadent/iTero | 스테레오 카메라 쌍의 삼각측량 |
-| 4 | MDC(Multi-Direct Capture) | iTero Lumina (2024 신기술) | 전면 광원 배열로 FOV 제약 극복 |
+| 4 | MDC(Multi-Direct Capture) | iTero Lumina <br>(2024 신기술) | 전면 광원 배열로 FOV 제약 극복 |
 | 5 | OCT(Optical Coherence Tomography) | 연구/의료 내시경용 | 간섭계 기반 초소형 프로브, MEMS 미러 빔스티어링 |
 
 ---
